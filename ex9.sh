@@ -4,7 +4,7 @@ read -p "digite arq1" arq1
 read -p "digite arq2" arq2
 
 
-cat $arq1 $arq2 > c.txt
+diff $arq1 $arq2 
 
 
 

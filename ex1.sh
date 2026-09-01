@@ -12,10 +12,6 @@ echo "5 para sair"
 
 read opcao
 
-if [ "$opcao" =  "5" ]; then
-echo "tchau"
-exit
-fi
 
 case "$opcao" in 
 1)
@@ -33,6 +29,12 @@ echo "resultado é $resul"
 4)
 resul=$(expr $n1 / $n2)
 echo "resultado é $resul"
+;;
+
+5)
+echo "tchau"
+exit
+
 ;;
 *)
 echo "valor invalido"
